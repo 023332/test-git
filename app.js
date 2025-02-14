@@ -36,7 +36,8 @@ const server = createServer((req, res) =>{
             res.writeHead(200, {"Content-Type": "application/json"});
             res.end(JSON.stringify({
                 email: "nahapetyankaren422@gmail.com",
-                possword: "nahapetyan12"
+                possword: "nahapetyan144"
+
             }))
         }else {
             res.writeHead(404, {"Content-Type": "text/plain"});
@@ -46,3 +47,4 @@ const server = createServer((req, res) =>{
 });
 
 server.listen(3001);
+console.log("Server started on port 3000");
