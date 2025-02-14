@@ -35,8 +35,8 @@ const server = createServer((req, res) =>{
         }else if(req.url === "/bye"){
             res.writeHead(200, {"Content-Type": "application/json"});
             res.end(JSON.stringify({
-                email: "nahapetyankaren422@gmail.com",
-                possword: "nahapetyan00"
+                email: "nahapetyankaren4221@gmail.com",
+                possword: "nahapetyan12"
             }))
         }else {
             res.writeHead(404, {"Content-Type": "text/plain"});
