@@ -46,3 +46,4 @@ const server = createServer((req, res) =>{
 });
 
 server.listen(3001);
+console.log("Server started on port 3000");
