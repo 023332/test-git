@@ -9,6 +9,6 @@ app.get("/karen", (req, res) => {
 })
 
 
-app.listen(3001, 'localhost', () =>{
-    console.log("Listen on 30001");
+app.listen(3000, 'localhost', () =>{
+    console.log("Listen on 3000");
 });
